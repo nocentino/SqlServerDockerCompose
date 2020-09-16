@@ -5,7 +5,7 @@ services:
           context: .
           dockerfile: dockerfile
         ports:  
-          - "15789:1433"
+          - "1433:1433"
         env_file:
           - sqlserver.env
           - sapassword.env
